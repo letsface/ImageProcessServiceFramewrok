@@ -8,7 +8,7 @@ homebrew install imagemagick --universal    to build fat binaries.
 
 3. install go modules(third party modules in import)
 
-4. go build *.go
+4. go build main.go config.go logger.go
 
 5. run ./main , run test.js 
 
@@ -18,3 +18,5 @@ homebrew install imagemagick --universal    to build fat binaries.
 3. In config.go MAXWORKER to control the maxium workers that process at the same time
 4. Current, only wirte resize action. 
 5. If there is a scalable issue, static language should be adopted. 
+6. php can be adopted to implement the idea.
+---------------------------------------------------------------------------------
